@@ -24,7 +24,13 @@ class Dog:
             birth_year  the year the dog was born
         """
         #stub
-        pass
+        self.name=name
+        self.breed=breed
+        self.gender=gender
+        self.weight=initial_weight
+        self.colour=colour
+        self._potential_health_issues=potential_health_issues
+        self.birth_year=birth_year
 
 
     #############
